@@ -30,4 +30,6 @@ I don't know why)
 Unit test
 ---------
 
-Does not work yet :-(
+    $ vi test.jsx
+    (replace "/path/to/underscore-min.js" to real path)
+    $ jsx --test test.jsx
