@@ -23,9 +23,7 @@ Console:
     $ jsx --executable node console-demo.jsx > console-demo.js
     $ node console-demo.js
 
-(Note: '$ jsx --run console-demo.jsx' does not work:
-"Error: Cannot find module './underscore-min.js'"
-I don't know why)
+(Note: '$ jsx --run console-demo.jsx' does not work maybe because it compiles jsx into /tmp/)
 
 Unit test
 ---------
